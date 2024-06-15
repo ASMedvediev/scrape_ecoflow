@@ -1,0 +1,24 @@
+{"1.2.0",
+[{<<"accept">>,{pkg,<<"accept">>,<<"0.3.5">>},1},
+ {<<"jsx">>,{pkg,<<"jsx">>,<<"3.1.0">>},0},
+ {<<"mqtt">>,
+  {git,"https://github.com/kopera/erlang-mqtt.git",
+       {ref,"d4aa0739dfe1e1958e66a96ec9418b655ddc8651"}},
+  0},
+ {<<"prometheus">>,{pkg,<<"prometheus">>,<<"4.8.2">>},0},
+ {<<"prometheus_httpd">>,{pkg,<<"prometheus_httpd">>,<<"2.1.11">>},0},
+ {<<"quantile_estimator">>,{pkg,<<"quantile_estimator">>,<<"0.2.1">>},1}]}.
+[
+{pkg_hash,[
+ {<<"accept">>, <<"B33B127ABCA7CC948BBE6CAA4C263369ABF1347CFA9D8E699C6D214660F10CD1">>},
+ {<<"jsx">>, <<"D12516BAA0BB23A59BB35DCCAF02A1BD08243FCBB9EFE24F2D9D056CCFF71268">>},
+ {<<"prometheus">>, <<"B88F24279DD7A1F512CB090595FF6C88B50AAD0A6B394A4C4983725723DCD834">>},
+ {<<"prometheus_httpd">>, <<"F616ED9B85B536B195D94104063025A91F904A4CFC20255363F49A197D96C896">>},
+ {<<"quantile_estimator">>, <<"EF50A361F11B5F26B5F16D0696E46A9E4661756492C981F7B2229EF42FF1CD15">>}]},
+{pkg_hash_ext,[
+ {<<"accept">>, <<"11B18C220BCC2EAB63B5470C038EF10EB6783BCB1FCDB11AA4137DEFA5AC1BB8">>},
+ {<<"jsx">>, <<"0C5CC8FDC11B53CC25CF65AC6705AD39E54ECC56D1C22E4ADB8F5A53FB9427F3">>},
+ {<<"prometheus">>, <<"C3ABD6521E52CEC4F0D8ECA603CF214DFC84D8A27AA85946639F1424B8554D98">>},
+ {<<"prometheus_httpd">>, <<"0BBE831452CFDF9588538EB2F570B26F30C348ADAE5E95A7D87F35A5910BCF92">>},
+ {<<"quantile_estimator">>, <<"282A8A323CA2A845C9E6F787D166348F776C1D4A41EDE63046D72D422E3DA946">>}]}
+].

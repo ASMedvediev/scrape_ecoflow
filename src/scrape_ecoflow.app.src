@@ -1,0 +1,17 @@
+{application, scrape_ecoflow,
+	[{description, "An OTP application"},
+		{vsn, "0.1.0"},
+		{registered, []},
+		{mod, {scrape_ecoflow_app, []}},
+		{applications,
+			[kernel,
+				stdlib,
+				inets, ssl,
+				jsx,
+				mqtt,
+				prometheus
+				]},
+		{env, []},
+		{modules, []},
+		{links, []}
+	]}.
